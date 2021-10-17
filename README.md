@@ -60,10 +60,14 @@ Bloc arguments:
 
 - Structure: &lt;modid:item\_name&gt;{/meta} or PRESENT&lt;{NBT\_Tag}&gt;
 - Example:
-  - minecraft:carpet/3 (Light blue carpet)
-  - pixelmon:poke\_ball (Pixelmon Pokéball)
-  - PRESENT{SkullOwner: &quot;NicolasBrg&quot;} (NicolasBrg&#39;s Head)
-  - PRESENT{SkullOwner: &quot;MHF\_Present2&quot;} (Present)
+  - minecraft:carpet/3 
+    - (Light blue carpet)
+  - pixelmon:poke\_ball
+    - (Pixelmon Pokéball)
+  - PRESENT{SkullOwner: &quot;NicolasBrg&quot;} 
+    - (NicolasBrg&#39;s Head)
+  - PRESENT{SkullOwner: &quot;MHF\_Present2&quot;} 
+    - (Present)
 
 For custom skull, you can see the official list of included MHF skull [https://minecraft.fandom.com/wiki/Head](https://minecraft.fandom.com/wiki/Head) or use custom from online website like: [https://minecraft-heads.com/player-heads](https://minecraft-heads.com/player-heads) or [https://minecraft-heads.com/custom-heads](https://minecraft-heads.com/custom-heads) (Please note that for custom heads, you need to use nbt from 1.12.2 version, a wiki is also available)
 
@@ -84,7 +88,7 @@ Description arguments:
   - **{MAX}** Number of statues in the collection
 - Example:
   - &amp;2First Line\n&amp;aSecond Line
-  - &amp;6{CURRENT}&amp;e/&amp;6{MAX}&amp;b statues
+  - **&amp;6{CURRENT}**&amp;e/**&amp;6{MAX}**&amp;b statues
 
 Commands arguments:
 
