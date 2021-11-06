@@ -1,4 +1,4 @@
-# NBStatues - PureForge 1.12.2 - Version 1.10.21.1
+# NBStatues - PureForge 1.12.2 - Version 2.11.21.2
 
 PureForge 1.12.2 mod allowing the creation of events of hunting for presents, statues, monsters and even pokemon (if Pixelmon is installed). You can also script events like maps / event adventures, quests and stories to tell. An advanced configuration easily and quickly done in-Game.
 
@@ -143,14 +143,16 @@ Here is a list of commands available in NBStatues. For each commands you have ta
     - Add new command after collection completion
   - **Command**\_**Remove**\_Id** &lt; **ID** &gt;
     - Delete command n°ID of commands after collection completion
-- **Statues** (theses commands have the same format that showed above)
-  - **Name** &lt;Statue&gt; &lt;Value&gt;
-  - **Description** &lt;Statue&gt; {Value}
-  - **Bloc** &lt;Statue&gt; &lt;Value&gt;
-  - **Pokemon** &lt;Statue&gt; &lt;Value&gt;
-  - **Command** \_List &lt;Statue&gt;
-  - **Command** \_Add &lt;Statue&gt; &lt;Value&gt;
-  - **Command** \_Remove\_Id &lt;Statue&gt; &lt;ID&gt;
+- **Statues** &lt;Statue&gt; &lt;Action&gt; (theses commands have the same format that showed above)
+  - **Name** &lt;Value&gt;
+  - **Description** {Value}
+  - **Bloc** &lt;Value&gt;
+  - **Pokemon** &lt;Value&gt;
+  - **Command\_List**
+  - **Command\_Add** &lt;Value&gt;
+  - **Command\_Remove\_Id** &lt;ID&gt;
+  - **StartTime** &lt;Value&gt;
+  - **EndTime** &lt;Value&gt;
   - **Help**
 - **Help** : Display help
 
