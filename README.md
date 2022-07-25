@@ -1,4 +1,4 @@
-# NBStatues - PureForge 1.12.2 - Version 2.11.21.2
+# NBStatues - PureForge 1.12.2 - Version 2022.07.a
 
 PureForge 1.12.2 mod allowing the creation of events of hunting for presents, statues, monsters and even pokemon (if Pixelmon is installed). You can also script events like maps / event adventures, quests and stories to tell. An advanced configuration easily and quickly done in-Game.
 
@@ -8,7 +8,9 @@ A collection is a container that contains a list of objects to find, that can be
 
 ## Configuration
 
-This category explains how to set up and use NBStatues. No dependency required. Some features are unlocked if you have Pixelmon installed. Very fast installation, in 5 minutes you&#39;ve the time to add your license, and create a really complete collection.
+This category explains how to set up and use NBStatues. No dependency required. Some features are unlocked if you have Pixelmon installed. Very fast installation, in 5 minutes you&#39;ve the time to create a really complete collection.
+
+This product uses NBAuth, guaranteeing you increased security, access to APIs, better stability and instant startup.
 
 ### Permissions
 
@@ -143,6 +145,8 @@ Here is a list of commands available in NBStatues. For each commands you have ta
     - Add new command after collection completion
   - **Command**\_**Remove**\_Id** &lt; **ID** &gt;
     - Delete command n°ID of commands after collection completion
+  - **sort\_by\_icons**
+    - Sorts the statues by appearance for the selected collection.
 - **Statues** &lt;Statue&gt; &lt;Action&gt; (theses commands have the same format that showed above)
   - **Name** &lt;Value&gt;
   - **Description** {Value}
@@ -160,9 +164,7 @@ Here is a list of commands available in NBStatues. For each commands you have ta
 
 - &quot; **CollectionName**&quot;: Display UI of the &quot;CollectionName&quot; collection
   - If a player have the admin permission, he can right clicked on one statue in UI to delete it.
-- **Info** : Send dev / license information
 - **NicolasBrg** : Send dev information
-- **License** : Send license information
 - **If empty** : Open Main UI of collection
 
 Take note that UI who display all statue have page system, but I recommend you to not exceed 150 statues for each collection.
